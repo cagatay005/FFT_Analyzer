@@ -43,11 +43,17 @@ Sistem, zaman düzlemindeki karmaşık ses verilerini frekans düzlemine çevire
 
 ### Doğrulama ve Test
 
-Projenin matematiksel doğruluğunu test etmek için `test_sinyali_uretici.py` dosyasını kullanabilirsiniz. Belirlediğiniz saf frekanslar (örn: 440Hz, 8000Hz), analizör tarafından keskin birer iğne (peak) olarak tespit edilmelidir.
+Projenin matematiksel doğruluğunu test etmek için `test_sinyali_uretici.py` dosyasını kullanabilirsiniz. Belirlediğiniz saf frekanslar (örn: 440Hz, 8000Hz), analizör tarafından keskin birer iğne olarak tespit edilmelidir.
+
+| Sentetik Sinyal Jeneratörü (Terminal) | Analizör Sonucu (PyQtGraph) |
+| --- | --- |
+| ![Test Sinyali Üretimi](test.png) | ![FFT Analiz Sonucu](test_sonuc.png) |
+
+**Analiz:** Yukarıdaki örnekte 30Hz, 400Hz, 2700Hz ve 7000Hz frekanslarından oluşan sentetik bir ses dosyası analiz edilmiş; C++ motoru bu frekansları spektrum üzerinde tam isabetle tespit etmiştir.
 
 ---
 
-## ABOUT THE PROJECT (ENGLISH)
+## ABOUT THE PROJECT
 
 This project is a Fast Fourier Transform (FFT) analyzer developed from scratch using **pure C++** without relying on external DSP libraries. It is designed to demonstrate the core principles of Digital Signal Processing.
 
@@ -90,8 +96,15 @@ The system analyzes complex audio data by converting it from the time domain to 
 
 You can use `test_sinyali_uretici.py` to verify the mathematical accuracy. Pure frequencies defined by the user (e.g., 440Hz, 8000Hz) should be detected as sharp peaks by the analyzer.
 
+| Synthetic Signal Generator (Terminal) | Analysis result (PyQtGraph) |
+| --- | --- |
+| ![Test Signal Generation](test.png) | ![FFT Analysis Results](test_sonuc.png) |
+
+**Analysis:** In the example above, a synthetic signal composed of 30Hz, 400Hz, 2700Hz, and 7000Hz was analyzed; the C++ engine successfully identified these frequencies with perfect accuracy.
+
 ---
 
 ## Yazar / Author
 **Mustafa Cagatay OZDEM**
 * GitHub: [@cagatay005](https://github.com/cagatay005)
+* Linkedin: https://www.linkedin.com/in/mustafa-%C3%A7a%C4%9Fatay-%C3%B6zdem-04199a2b7/

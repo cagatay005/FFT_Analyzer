@@ -1,0 +1,15 @@
+cat <<EOF > .gitignore
+# C++ Binaries
+fft_analizoru
+*.o
+
+# Data & Temporary Files
+test_sesi.wav
+ozel_test_sesi.wav
+fft_sonuc.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+EOF

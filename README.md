@@ -25,7 +25,7 @@ Sistem, zaman düzlemindeki karmaşık ses verilerini frekans düzlemine çevire
 ### Kurulum ve Çalıştırma
 1.  **Repoyu klonlayın:**
     ```bash
-    git clone [https://github.com/cagatay005/FFT_Analyzer.git](https://github.com/cagatay005/FFT_Analyzer.git)
+    git clone https://github.com/cagatay005/FFT_Analyzer.git
     cd FFT_Analyzer
     ```
 2.  **C++ motorunu derleyin:**
@@ -76,7 +76,7 @@ The system analyzes complex audio data by converting it from the time domain to 
 ### Installation & Usage
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/cagatay005/FFT_Analyzer.git](https://github.com/cagatay005/FFT_Analyzer.git)
+    git clone https://github.com/cagatay005/FFT_Analyzer.git
     cd FFT_Analyzer
     ```
 2.  **Build the C++ engine:**
